@@ -1,0 +1,16 @@
+.main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.item{
+  display: none;
+}
+.item.active {
+  display: block;
+}
+.images {
+ width: 200px;
+ height: 200px;
+}  
